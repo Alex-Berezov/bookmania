@@ -1,0 +1,58 @@
+.singleBlockElem {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #a5a9a3;
+    border-radius: 5px;
+}
+
+.imgBlock {
+    width: 30%;
+    color: black;
+    display: flex;
+}
+
+.imgBlock img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.infoBlock {
+    width: 70%;
+    color: black;
+}
+
+.infoBlock h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.infoBlock p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.paginationBlock {
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+.paginationBlockItem {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.selectedPage {
+    font-weight: bold;
+}
