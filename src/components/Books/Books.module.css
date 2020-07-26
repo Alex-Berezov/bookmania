@@ -4,10 +4,11 @@
     padding: 10px;
     border: 1px solid #a5a9a3;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
 .imgBlock {
-    width: 30%;
+    width: 28%;
     color: black;
     display: flex;
 }
@@ -18,7 +19,7 @@
 }
 
 .infoBlock {
-    width: 70%;
+    width: 68%;
     color: black;
 }
 
@@ -55,4 +56,14 @@
 }
 .selectedPage {
     font-weight: bold;
+}
+
+.forms_block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.select_block {
+    display: flex;
+    margin-right: 15px;
 }

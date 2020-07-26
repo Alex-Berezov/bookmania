@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import BooksContainer from "./components/Books/BooksContainer";
+import FiltersContainer from "./components/Filters/FiltersContainers";
 
 class App extends React.Component {
     render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
                                 <Navbar />
                             </aside>
                             <div className={classes.content_part}>
+                                <FiltersContainer />
                                 <BooksContainer />
                             </div>
                         </div>

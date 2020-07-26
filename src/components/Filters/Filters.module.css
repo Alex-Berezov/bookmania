@@ -1,0 +1,8 @@
+.filter_elems {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.filter_elem {
+    margin-right: 15px;
+}

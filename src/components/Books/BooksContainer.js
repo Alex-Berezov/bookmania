@@ -15,13 +15,15 @@ class BooksContainer extends React.Component {
 
     render() {
         return <>
-            { this.props.isFetching ? <Preloader /> : null }
-            <Books books={ this.props.books }
-                   totalBooksCount={ this.props.totalBooksCount }
-                   pageSize={ this.props.pageSize }
-                   currentPage={ this.props.currentPage }
-                   onPageChanges={ this.onPageChanges.bind(this) }
-            />
+            { this.props.isFetching
+                ? <Preloader />
+                : <Books books={ this.props.books }
+                         totalBooksCount={ this.props.totalBooksCount }
+                         pageSize={ this.props.pageSize }
+                         currentPage={ this.props.currentPage }
+                         onPageChanges={ this.onPageChanges.bind(this) }
+                />
+            }
         </>
     };
 }
